@@ -30,9 +30,9 @@
 <body>
 <div class="wrap">
   <h1>Privacy Policy</h1>
-  <p class="updated">US Citizen Prep · Last updated 22 September 2026</p>
+  <p class="updated">US Citizen Prep · Last updated 1 October 2026</p>
 
-  <p>This policy explains what US Citizen Prep collects, why, and what you can do about it. If anything here is unclear, email <a href="mailto:jenishlad40@gmail.com">jenishlad40@gmail.com</a>.</p>
+  <p>This policy explains what US Citizen Prep collects, why, and what you can do about it. It applies to both the iOS and Android apps; where their behavior genuinely differs, that's called out. If anything here is unclear, email <a href="mailto:jenishlad40@gmail.com">jenishlad40@gmail.com</a>.</p>
 
   <h2>What we collect</h2>
   <table>
@@ -40,29 +40,39 @@
     <tr><td>Name and email address</td><td>To create and identify your account</td></tr>
     <tr><td>Study progress — questions answered, mock test scores and dates</td><td>To show your progress and sync it across your devices</td></tr>
     <tr><td>Subscription status</td><td>To unlock Pro features you've paid for</td></tr>
-    <tr><td>Advertising identifiers</td><td>Only if you allow tracking, to show relevant ads on the free plan</td></tr>
+    <tr><td>Advertising identifier</td><td>Only if you allow it, to show relevant ads on the free plan</td></tr>
   </table>
 
   <p>We do not collect your location, contacts, photos, or browsing activity outside the app.</p>
 
   <h2>Microphone and speech</h2>
-  <p>The app can listen when you choose to answer a question out loud. Audio is processed by Apple's speech recognition to turn it into text so your answer can be checked against the official civics answers.</p>
-  <p><strong>We never record, store, or transmit your audio.</strong> The microphone is only active while you are recording an answer, and the resulting text stays on your device except as part of your saved progress.</p>
+  <p>The app can listen when you choose to answer a question out loud, or write one by hand on screen. Audio and handwriting are processed only to turn them into text so your answer can be checked against the official civics answers — never to identify you or build a profile.</p>
+
+  <p><strong>On iPhone and iPad:</strong> speech recognition is forced to run entirely on your device. We never record, store, or transmit your audio — if on-device recognition isn't available for any reason, the feature is disabled rather than silently sending audio over the network.</p>
+
+  <p><strong>On Android:</strong> if your device supports on-device speech recognition (most phones running Android 13 or later with the recognition model installed), the same guarantee applies — audio never leaves the device. On older or less capable devices, Android's default speech service is used instead, which sends the audio to Google's servers solely to produce text; that processing is covered by <a href="https://policies.google.com/privacy">Google's privacy policy</a>. We don't control which path your specific device takes.</p>
+
+  <p>Handwritten answers are recognized entirely on-device on both platforms (Apple's Vision framework on iOS, Google's ML Kit on Android) and never leave your phone.</p>
+
+  <p>In every case, we do not keep a copy of your audio or your handwriting image — only the resulting text, and only as part of your saved progress.</p>
 
   <h2>Who we share data with</h2>
   <ul>
-    <li><strong>Google Firebase</strong> — stores your account and study progress</li>
+    <li><strong>Google Firebase</strong> — stores your account and study progress, on both platforms</li>
     <li><strong>Google AdMob</strong> — serves rewarded ads on the free plan</li>
-    <li><strong>Apple</strong> — processes subscription payments; we never see your payment details</li>
+    <li><strong>Apple</strong> (iOS) or <strong>Google Play</strong> (Android) — processes subscription payments for whichever app you use; we never see your payment details</li>
+    <li><strong>Google's speech recognition service</strong> — only on Android devices that fall back to network-based recognition, as described above</li>
   </ul>
   <p>We do not sell your personal information.</p>
 
   <h2>Advertising and tracking</h2>
-  <p>On the free plan you can watch an optional ad to unlock an extra question. Before any tracking occurs, iOS asks your permission. If you decline, ads still work — they're just less relevant. You can change this any time in <em>Settings → Privacy &amp; Security → Tracking</em>.</p>
+  <p>On the free plan you can watch an optional ad to unlock an extra question. If you decline tracking, ads still work — they're just less relevant.</p>
+  <p><strong>On iPhone and iPad:</strong> iOS asks your permission before any tracking occurs. You can change this any time in <em>Settings → Privacy &amp; Security → Tracking</em>.</p>
+  <p><strong>On Android:</strong> you can reset or opt out of your advertising identifier in <em>Settings → Privacy → Ads</em> (the exact path varies by Android version and manufacturer).</p>
 
   <h2>Deleting your account</h2>
   <p>You can delete your account and all associated data from inside the app: <strong>Profile → Delete account</strong>. This removes your login and your stored progress permanently and cannot be undone.</p>
-  <p>Subscriptions are billed by Apple and must be cancelled separately in your Apple ID settings. Deleting your account does not cancel an active subscription.</p>
+  <p>An active subscription is billed by Apple or Google Play, depending on which app you subscribed through, and must be cancelled separately in your Apple ID settings or Google Play subscriptions. Deleting your account does not cancel it.</p>
 
   <h2>Children</h2>
   <p>This app is intended for adults preparing for the U.S. naturalization test and is not directed at children under 13. We do not knowingly collect information from children under 13.</p>
